@@ -126,3 +126,6 @@ wqx/*.jpg
 data/*.jpg
 data/*.png
 wqx/test/
+wqx/
+configs_slurm/
+configs/
