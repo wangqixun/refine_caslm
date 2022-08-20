@@ -47,8 +47,8 @@ bash tools/dist_train.sh configs/refine/refine_mask_rcnn_cbv2_swin_tiny_coco80_c
 
 #### 有事没事常联系
 ```
-	🆔 挠挠
-	☎️ 18611684528
-	📮 253817124@qq.com
-	
+	挠挠-王奇勋
+	18611684528
+	253817124@qq.com
 ```
+
