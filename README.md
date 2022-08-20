@@ -44,6 +44,16 @@ bash tools/dist_train.sh configs/refine/refine_mask_rcnn_cbv2_swin_tiny_coco80_c
 
 <br>
 
+## 训练
+目前只支持bs=1的infer
+```
+from mmdet.apis import inference_detector, init_detector
+
+img = 'path/img.jpg'
+model = init_detector(config, checkpoint, device='cuda:0')
+img_res = inference_detector(model, [img])
+```
+
 
 #### 有事没事常联系
 ```
