@@ -4,6 +4,8 @@
 结合了[refin-mask](https://github.com/zhanggang001/RefineMask)、[CBNetv2](https://github.com/VDIGPKU/CBNetV2)，整体框架还是基于[mmdet](https://github.com/open-mmlab/mmdetection)
 
 
+<br>
+<br>
 
 
 
@@ -44,7 +46,7 @@ bash tools/dist_train.sh configs/refine/refine_mask_rcnn_cbv2_swin_tiny_coco80_c
 
 <br>
 
-## 训练
+## 推理
 目前只支持bs=1的infer
 ```
 from mmdet.apis import inference_detector, init_detector
@@ -53,6 +55,8 @@ img = 'path/img.jpg'
 model = init_detector(config, checkpoint, device='cuda:0')
 img_res = inference_detector(model, [img])
 ```
+
+<br>
 
 
 #### 有事没事常联系
